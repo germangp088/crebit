@@ -1,0 +1,44 @@
+{
+  "name": "crebit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:api": "node ./api/bin/www",
+    "start:client": "react-scripts start",
+    "start": "concurrently \"npm run start:api\" \"npm run start:client\"",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "helmet": "^3.22.0",
+    "http-errors": "~1.6.2",
+    "knex": "^0.21.1",
+    "log": "^6.0.0",
+    "react": "^16.13.1",
+    "react-accessible-accordion": "^3.0.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.0",
+    "sqlite3": "^4.2.0",
+    "superagent": "^5.2.2",
+    "validator": "^13.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
