@@ -16,7 +16,7 @@
     "express": "~4.16.0",
     "helmet": "^3.22.0",
     "http-errors": "~1.6.2",
-    "knex": "^0.21.1",
+    "knex": "^2.4.0",
     "log": "^6.0.0",
     "react": "^16.13.1",
     "react-accessible-accordion": "^3.0.1",
